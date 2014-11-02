@@ -1,13 +1,13 @@
 {
   "author": "wondible",
-  "build": "69721",
+  "build": "74525",
   "category": [
     "in-game",
     "shader",
     "ui"
   ],
   "context": "client",
-  "date": "2014/08/03",
+  "date": "2014/11/01",
   "description": "Use secondary color for icon outlines, and white for selected.",
   "display_name": "Two Color Icons",
   "forum": "https://forums.uberent.com/threads/wip-two-color-icons.60568/",
@@ -20,5 +20,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.2.0"
+  "version": "1.3.0"
 }

@@ -25,8 +25,7 @@ void main()
         // horrible, horrible hack to work aground webkit png handling
         texel.rgb = clamp((texel.rgb - 0.27) / 0.7, 0.0, 1.0);
 
-        vec3 brighterSec = mix(vec3(1.0, 1.0, 1.0), v_ColorSecondary.rgb, 0.8);
-        vec3 outline = v_SelectedState > 0.0 ? vec3(1.0, 1.0, 1.0) : brighterSec;
+        vec3 outline = v_SelectedState > 0.0 ? vec3(1.0, 1.0, 1.0) : v_ColorSecondary.rgb;
         vec3 body = v_ColorPrimary.rgb;
         vec3 color = texel.r * mix(outline, body, pow(texel.g, 1.0 / 2.2) / texel.a + 0.00001);
 

@@ -1,3 +1,7 @@
+## 1.3
+
+- Remove extra brightness on outline color; it was probably needed because of my dark display.  See alternate Two Color Icons - Brighter mod.
+
 ## 1.2
 
 - Mod the icons in the player list panel to have the secondary color outline
