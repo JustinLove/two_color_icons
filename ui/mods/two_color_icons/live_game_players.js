@@ -7,5 +7,5 @@
     return 'rgb(' + army.secondary_color[0] + ',' + army.secondary_color[1] + ',' + army.secondary_color[2] + ')';
   }
 
-  $('.div_player_icon .outline').replaceWith('<div class="outline outline_masked" data-bind="style: {backgroundColor: $parent.secondary($data)}"></div>')
+  $('.div_player_icon .outline').replaceWith('<div class="outline outline_masked" data-bind="style: {backgroundColor: $root.secondary($data)}"></div>')
 })()
