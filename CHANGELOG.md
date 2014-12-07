@@ -1,3 +1,7 @@
+## 1.4.0
+
+- Special case outline to black if primary and secondary are exactly equal
+
 ## 1.3.1
 
 - Fix broken rendering of shared armies and specator alliances
