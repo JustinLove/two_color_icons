@@ -1,3 +1,7 @@
+## 1.4.1
+
+- File packaging issue
+
 ## 1.4.0
 
 - Special case outline to black if primary and secondary are exactly equal
